@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            padding:10px; 
+            
+        }
+    </style>
+</head>
+<body bgcolor="#EFC3CA">
+    <center> <font color="#E55D5F" size="8"> APPLICATION FORM</font> </center>
+    <hr size="5" color="#603CD7" width="500"> 
+    <form action="index.php" method="Post"
+>
+    <table cellpadding="15" cellspacing="0" align="center">
+        <tr>
+            <td>First Name:</td>
+            <td> <input type="text" placeholder="FIRST NAME" name="fname" size="30" autofocus /></td>
+        </tr>
+        <tr>
+            <td>LastName:</td>
+            <td> <input type="text" name="fname" placeholder="LAST NAME"size="30" size="6" /></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td> <input type="password" name="password"placeholder=" strong pass"  size="22" minlength="7"/></td>
+        </tr>
+        <tr>
+            <td>Comments:</td>
+            <td><textarea id="comment" rows="10"  style="overflow: auto;" placeholder="enter comments"></textarea> </td>
+        </tr>
+        <tr>
+            <td>Language:</td>
+            <td>
+                <input type="checkbox" name="cb1" checked > HINDI
+                <input type="checkbox" name="cb1" style = "margin-left:50px">English
+                <input type="checkbox" name="cb1" style = "margin-left:50px">Punjabi
+            </td>
+        </tr><tr><td>Gender:</td>
+            <td>
+                <input type="checkbox" name="cb1" >Male
+                <input type="checkbox" name="cb1" style="margin-left:50px" >Female
+            </td>
+        </tr>
+        <tr><td>Fruits:</td>
+            <td><select>
+                <option id="f1">----select----</option>
+                <option id="f2">Banana</option>
+                <option id="f3">Orange</option>
+                <option id="f4">Pineapple</option>
+                <option id="f5">Pomegranate</option>
+                <option id="f6">Grape</option>
+                <option id="f7">Avocado</option>
+                <option id="f8">Coconut</option>
+              
+
+            </select></td></tr>
+        <tr>
+            <td>Select Resume:</td>
+            <td> <input type="file"></td>
+        </tr>
+        </table>
+         <input type="reset" style = "margin-left:233px">
+         <input type="submit"  style = "margin-left:50px">
+        <button style = "margin-left:50px">OK</button>
+
+
+    
+    </body>
+</html>        
